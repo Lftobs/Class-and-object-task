@@ -17,8 +17,8 @@ class Student:
    	   self.track = str(a_track)
    	  
    
-   def get_score(score =20.90 ):
-   	   return score	   	   
+   def get_score(self):
+   	   return self.name	   	   
 
 
 Bob = Student("Bob", 26, ["FE","BE"], 20.90)
