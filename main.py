@@ -18,7 +18,7 @@ class Student:
    	  
    
    def get_score(self):
-   	   return self.name	   	   
+   	   return self.score	   	   
 
 
 Bob = Student("Bob", 26, ["FE","BE"], 20.90)
