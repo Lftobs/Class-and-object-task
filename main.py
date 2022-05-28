@@ -14,8 +14,8 @@ class Student:
    	   self.age = int(c_age)
    	   
    def add_track(self, a_track):
-   	  self.a_track = list(a_track)
-   	  return self.track.extend(self.a_track)   	  
+   	  self.a_track = str(a_track)
+   	  return self.track.append(self.a_track)   	  
    
    def get_score(self):
    	   return self.score	   	   
@@ -34,7 +34,7 @@ print("My name is", Bob.name, "my age is", Bob.age, "my track is", Bob.track, "m
 # Expected methods
 Bob.change_name("peter")
 Bob.change_age(34)
-Bob.add_track(["UI/UX"])
+Bob.add_track("UI/UX")
 Bob.get_score()
 
 
