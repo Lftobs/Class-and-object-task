@@ -5,7 +5,7 @@ class Student:
             self.name = str(name)
             self.age = int(age)
             self.track = list(track)
-            self.score = int(score)
+            self.score = float(score)
             
    def change_name(self, c_n):
           self.name = str(c_n)
